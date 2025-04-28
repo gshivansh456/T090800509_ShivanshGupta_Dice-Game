@@ -1,0 +1,84 @@
+body {
+    background-color: #337b44;
+    height: 80vh;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #3184e3;
+}
+
+label {
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    color: #3184e3;
+}
+
+p {
+    font-size: 2rem;
+    color: #3184e3;
+    font-family: 'Indie Flower', cursive;
+}
+
+#container {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #449236;
+    color: #393E46;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: hsl(120, 12%, 32%);
+}
+
+button:active {
+    background-color: hsl(120, 12%, 32%);
+}
+
+input {
+    font-size: 2rem;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    border: snow 2px solid;
+    background-color: black;
+    border-radius: 10px;
+    color: snow;
+}
+
+#diceResult {
+    margin: 25px;
+}
+
+#diceWinner {
+    margin: 25px;
+}
+
+#diceImages {
+    display: flex;
+    justify-content: center;
+}
+
+#diceImages img {
+    width: 150px;
+    margin: 5px;
+}
+
+.block p {
+    margin: 5px;
+}
